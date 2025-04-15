@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enquiry | StriveFit</title>
+</head>
+<body>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="enquiry.html">Enquiry</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Page Header -->
+  <header>
+    <h1>Make an Enquiry</h1>
+    <p>Whether you're interested in our training services or want to collaborate, we’d love to hear from you.</p>
+  </header>
+
+  <!-- Enquiry Form -->
+  <section>
+    <form action="#" method="post">
+      <label for="name">Full Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email Address:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="enquiry-type">Enquiry Type:</label><br>
+      <select id="enquiry-type" name="enquiry-type" required>
+        <option value="">-- Select an option --</option>
+        <option value="training">Personal Training</option>
+        <option value="nutrition">Nutrition Support</option>
+        <option value="volunteer">Volunteering</option>
+        <option value="partnership">Collaboration / Sponsorship</option>
+        <option value="other">Other</option>
+      </select><br><br>
+
+      <label for="message">Your Message:</label><br>
+      <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+
+      <button type="submit">Submit Enquiry</button>
+    </form>
+  </section>
+
+</body>
+</html>
